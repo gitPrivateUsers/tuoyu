@@ -1,0 +1,20 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	
+	<modelVersion>4.0.0</modelVersion>
+	<artifactId>ttui-administrator</artifactId>
+	<packaging>pom</packaging>
+	<parent>
+		<groupId>org.pussinboots.ttui</groupId>
+		<artifactId>ttui-parent</artifactId>
+		<version>3.0.0-SNAPSHOT</version>
+	</parent>
+	<name>ttui-administrator</name>
+	<url>http://maven.apache.org</url>
+	<description>ttui  --  公益商城系统管理员模块父模块</description>
+	
+	<modules>
+		<module>ttui-administrator-service</module>
+		<module>ttui-administrator-facade</module>
+	</modules>
+</project>
